@@ -6,6 +6,8 @@ import './Main.css';
 const Main = () => {
         // Declare useState for state Data:
         const [programmers, setProgrammers] = useState([]);
+        // For Cart Selected Programmers:
+        const [selectedProgrammers, setSelectedProgrammers] = useState([]);
         // Load Data from JSON file:
         useEffect(() => {
                 fetch('./programmers.JSON')
@@ -14,9 +16,12 @@ const Main = () => {
         }, []);
 
         // For Cart Calculation Pass Data by onClick:
-        const handleCart = id => {
-                console.log(id)
+        const handleCart = programmer => {
+                // console.log(programmer);
+                const newArr = [...selectedProgrammers, programmer];
+                setSelectedProgrammers(newArr);
         }
+
         return (
                 <div className="container mt-5">
                         <div className="row">
@@ -33,7 +38,10 @@ const Main = () => {
                                         </div>
                                 </div>
                                 <div className="col-lg-3">
-                                        <Cart></Cart>
+                                        <Cart
+                                                selectedProgrammers={selectedProgrammers}
+                                        >
+                                        </Cart>
                                 </div>
                         </div>
                 </div>
