@@ -17,7 +17,7 @@ const Programmer = (props) => {
                                                 <h4 className="text-success">Salary: {salary}</h4>
                                                 <h4>Address: {address}</h4>
                                                 <h6>Hobby: {hobby}</h6>
-                                                <button onClick={() => handleCart(id)} type="button" className="btn btn-success"><i className="fas fa-plus-square"></i> Add Programmer</button>
+                                                <button onClick={() => handleCart(id)} type="button" className="btn btn-success"><i className="fas fa-plus-square"></i> Add Programmer o</button>
                                         </div>
                                 </div>
                         </div>
