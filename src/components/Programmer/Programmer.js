@@ -14,7 +14,7 @@ const Programmer = (props) => {
                                         <div className="card-body">
                                                 <h5 className="card-title">{name}</h5>
                                                 <p className="card-text">Age: {age}</p>
-                                                <h4 className="text-success">Salary: {salary}</h4>
+                                                <h4 className="text-success">Salary: ${salary}</h4>
                                                 <h4>Address: {address}</h4>
                                                 <h6>Hobby: {hobby}</h6>
                                                 <button onClick={() => handleCart(props.programmer)} type="button" className="btn btn-success"><i className="fas fa-plus-square"></i> Select Programmer</button>
