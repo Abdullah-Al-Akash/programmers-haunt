@@ -1,0 +1,29 @@
+[
+        {
+                "id": 1,
+                "name": "Developer Ashik",
+                "age": 24,
+                "address": "Rajshahi",
+                "salary": 1200,
+                "img": "https://cdn.pixabay.com/photo/2020/05/11/15/38/tom-5158824_1280.png",
+                "hobby": "programming"
+        },
+        {
+                "id": 2,
+                "name": "MD Redowan",
+                "age": 24,
+                "address": "Rajshahi",
+                "salary": 1200,
+                "img": "https://cdn.pixabay.com/photo/2020/05/11/15/38/tom-5158824_1280.png",
+                "hobby": "programming"
+        },
+        {
+                "id": 3,
+                "name": "Tapushi Nilu",
+                "age": 24,
+                "address": "Rajshahi",
+                "salary": 1200,
+                "img": "https://cdn.dribbble.com/users/1402135/screenshots/3922982/tom_to_wolf_still_2x.gif?compress=1&resize=400x300",
+                "hobby": "programming"
+        }
+]
