@@ -2,3 +2,7 @@ nav ul .nav-item:hover {
         background: gray;
         border-radius: 5px;
 }
+
+.logo-title:hover {
+        cursor: pointer;
+}
