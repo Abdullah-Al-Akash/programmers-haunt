@@ -1,3 +1,9 @@
-/* .head-line {
-        background-image: url('https://user-images.githubusercontent.com/37551474/113611467-3a567d80-9657-11eb-862b-b07b4f105c6f.gif')
-} */
+.hr {
+        border: 2px solid gold;
+        margin-top: 0;
+        padding: 0;
+}
+
+.side-img {
+        border-radius: 10px;
+}

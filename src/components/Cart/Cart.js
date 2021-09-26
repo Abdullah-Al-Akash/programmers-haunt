@@ -11,7 +11,7 @@ const Cart = (props) => {
         }
         return (
                 <div>
-                        <div className="text-center bg-warning pt-3 pb-3 rounded">
+                        <div className="text-center gold-bg pt-3 pb-3 rounded">
                                 <h5><i className="fas fa-users-cog text-success"></i> Added Programmers: {selectedProgrammers.length}</h5>
                                 <h5><i className="fas fa-money-check-alt text-success"></i> Total Cost: ${totalCost}</h5>
                         </div>

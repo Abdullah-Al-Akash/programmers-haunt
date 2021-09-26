@@ -1,21 +1,22 @@
 import React from 'react';
 import './Header.css';
-import sideImg from '../images/side-img1.gif'
+import sideImg from '../images/side-img.gif'
 
 const Header = () => {
         return (
                 <div className="container">
                         <div className="row">
                                 <div className="col-8 pt-4 head-line text-center text-white">
-                                        <h3>Programmer's Haunt</h3>
-                                        <h4>First, solve the problem. Then, write the code.</h4>
-                                        <h5 className="text-danger">Budget: 100Million USD</h5>
+                                        <h1>Programmer's Haunt</h1>
+                                        <h3>First, solve the problem. Then, write the code...</h3>
+                                        <h5 className="gold-color">Budget: 100Million USD</h5>
                                 </div>
 
                                 <div className="col-4 text-end">
-                                        <img src={sideImg} className="img-fluid" alt="" height="300" width="300" />
+                                        <img src={sideImg} className="img-fluid p-2 side-img" alt="" height="270" width="270" />
                                 </div>
                         </div>
+                        <p class="hr gold-bg"></p>
                 </div>
         );
 };
