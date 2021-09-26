@@ -2,7 +2,6 @@ import React from 'react';
 import './Programmer.css';
 
 const Programmer = (props) => {
-        // console.log(props.handleCart)
         // Destructuring Data from props:
         const { handleCart } = props;
         const { name, age, img, address, salary, hobby } = props.programmer;
