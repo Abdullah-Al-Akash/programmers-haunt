@@ -31,5 +31,4 @@
         </li>
 </ul>
 <br>
-<h3>In below I have shared a screenshot of my website's:</h3>
-<img src="/images/">
+<h3>Thats it. Thank You So Much</h3>
