@@ -29,7 +29,7 @@ const Footer = () => {
                                         </div>
                                 </div>
                                 <p className="text-center pt-3 m-0">Copyright © 2021 || Programmers Haunt</p>
-                                <p className="text-center m-0 p-0"><small>Made by <span class="gold-color">Abdullah Al Akash</span></small></p>
+                                <p className="text-center m-0 p-0"><small>Made by <span className="gold-color">Abdullah Al Akash</span></small></p>
                         </footer>
                 </div>
         );

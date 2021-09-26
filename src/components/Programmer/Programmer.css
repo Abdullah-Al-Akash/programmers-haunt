@@ -1,16 +1,16 @@
 .single-img {
         height: 230px;
-        /* background-image: linear-gradient(rgb(228, 78, 248), rgb(122, 219, 187)); */
         background-image: url(../images/bg-1.png);
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
         background-attachment: fixed;
+        border: 2px solid rgb(156, 155, 151);
 }
 
 .card {
-        /* box-shadow: 5px 5px 5px gray; */
-        border: 1px solid green
+        border: 1px solid black;
+        border-radius: 5px;
 }
 
 .card-information {

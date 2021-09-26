@@ -16,7 +16,7 @@ const Header = () => {
                                         <img src={sideImg} className="img-fluid p-2 side-img" alt="" height="270" width="270" />
                                 </div>
                         </div>
-                        <p class="hr gold-bg"></p>
+                        <p className="hr gold-bg"></p>
                 </div>
         );
 };

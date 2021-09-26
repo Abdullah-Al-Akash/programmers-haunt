@@ -17,7 +17,7 @@ const Programmer = (props) => {
                                                 <div className="card-information">
                                                         <h4 className="card-title">{name}</h4>
                                                         <p className="card-text">Age: {age}</p>
-                                                        <h4 className="text-warning">Salary: ${salary}</h4>
+                                                        <h5 className="text-warning">Salary: ${salary}</h5>
                                                         <h6>Address: {address}</h6>
                                                         <h6>Hobby: {hobby}</h6>
                                                 </div>
