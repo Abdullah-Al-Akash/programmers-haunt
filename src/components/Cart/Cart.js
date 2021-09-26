@@ -23,6 +23,9 @@ const Cart = (props) => {
                                         >
                                         </SelectedProgrammer>)
                                 }
+                                <div class="d-grid gap-2">
+                                        <button class="btn btn-outline-warning fw-bolder" type="button"><i class="fas fa-users"></i> Create Programmers Haunt</button>
+                                </div>
                         </div>
                 </div>
         );

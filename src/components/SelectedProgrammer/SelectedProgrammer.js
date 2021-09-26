@@ -10,16 +10,16 @@ const SelectedProgrammer = (props) => {
                                 <div className="row g-0">
                                         <div className="col-3">
                                                 <div>
-                                                        <img src={img} className="img-fluid rounded-circle" alt="..." />
+                                                        <img src={img} className="img-fluid ps-1" alt="..." />
                                                 </div>
                                         </div>
-                                        <div className="col-7">
+                                        <div className="col-6">
                                                 <div className="card-body d-flex align-items-center">
-                                                        <h5 className="card-title">{name}</h5>
+                                                        <h6 className="card-title mt-2">{name}</h6>
                                                 </div>
                                         </div>
-                                        <div className="col-2 d-flex align-items-center">
-                                                <button type="button" className="btn btn-warning"> ❌</button>
+                                        <div className="col-3 d-flex justify-content-center align-items-center">
+                                                <button type="button" className="btn btn-warning">❌</button>
                                         </div>
                                 </div>
                         </div>
