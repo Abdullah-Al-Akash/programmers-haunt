@@ -1,5 +1,5 @@
 import React from 'react';
-import './SelectedPProgrammer.css';
+import './SelectedProgrammer.css';
 
 const SelectedProgrammer = (props) => {
         // console.log(props.sProgrammer);
@@ -8,7 +8,7 @@ const SelectedProgrammer = (props) => {
                 <div>
                         <div className="card mb-3 sProgrammer">
                                 <div className="row g-0">
-                                        <div className="col-md-3">
+                                        <div className="col-md-3 single-img">
                                                 <img src={img} className="img-fluid rounded-circle" alt="..." />
                                         </div>
                                         <div className="col-md-7">
