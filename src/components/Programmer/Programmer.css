@@ -1,0 +1,17 @@
+.single-img {
+        height: 230px;
+        /* background-image: linear-gradient(rgb(228, 78, 248), rgb(122, 219, 187)); */
+        background-image: url(../images/bg-1.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+}
+
+.card {
+        box-shadow: 5px 5px 5px gray;
+        border: 1px solid green
+}
+
+.card:hover {
+        transform: scale(1.03);
+        transition: transform 1s;
+}

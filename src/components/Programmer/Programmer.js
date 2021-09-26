@@ -5,12 +5,14 @@ const Programmer = (props) => {
         // console.log(props.handleCart)
         // Destructuring Data from props:
         const { handleCart } = props;
-        const { id, name, age, img, address, salary, hobby } = props.programmer;
+        const { name, age, img, address, salary, hobby } = props.programmer;
         return (
                 <div>
                         <div className="col">
                                 <div className="card h-100">
-                                        <img src={img} className="rounded-circle mx-auto pt-2" alt="Cinque Terre" width="200" height="200" />
+                                        <div className="single-img d-flex justify-content-center align-items-center rounded-top">
+                                                <img src={img} className="rounded-circle border border-3 border-dark" alt="Cinque Terre" width="180" height="180" />
+                                        </div>
                                         <div className="card-body">
                                                 <h5 className="card-title">{name}</h5>
                                                 <p className="card-text">Age: {age}</p>

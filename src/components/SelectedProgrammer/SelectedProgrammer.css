@@ -1,7 +1,5 @@
 .sProgrammer img {
         height: 80px;
-        width: 80px;
+        width: 90px;
         object-fit: cover;
 }
-
-.single-img {}

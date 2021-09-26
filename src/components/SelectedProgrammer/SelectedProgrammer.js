@@ -8,15 +8,17 @@ const SelectedProgrammer = (props) => {
                 <div>
                         <div className="card mb-3 sProgrammer">
                                 <div className="row g-0">
-                                        <div className="col-md-3 single-img">
-                                                <img src={img} className="img-fluid rounded-circle" alt="..." />
+                                        <div className="col-3">
+                                                <div>
+                                                        <img src={img} className="img-fluid rounded-circle" alt="..." />
+                                                </div>
                                         </div>
-                                        <div className="col-md-7">
+                                        <div className="col-7">
                                                 <div className="card-body d-flex align-items-center">
                                                         <h5 className="card-title">{name}</h5>
                                                 </div>
                                         </div>
-                                        <div className="col-md-2 d-flex align-items-center">
+                                        <div className="col-2 d-flex align-items-center">
                                                 <button type="button" className="btn btn-warning"> ❌</button>
                                         </div>
                                 </div>
