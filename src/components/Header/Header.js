@@ -7,7 +7,7 @@ const Header = () => {
                 <div className="container mt-5 pt-4">
                         <div className="row">
                                 <div className="col-9 pt-4 head-line text-center text-white">
-                                        <h1>Programmer's Haunt</h1>
+                                        <h1>Programmers Haunt</h1>
                                         <h3>First, solve the problem. Then, write the code...</h3>
                                         <h5 className="gold-color">Budget: 100Million USD</h5>
                                 </div>
