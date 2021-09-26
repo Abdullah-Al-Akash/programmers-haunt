@@ -6,7 +6,7 @@ const Header = () => {
         return (
                 <div className="container">
                         <div className="row">
-                                <div className="col-8 pt-5 head-line text-center">
+                                <div className="col-8 pt-4 head-line text-center text-white">
                                         <h3>Programmer's Haunt</h3>
                                         <h4>First, solve the problem. Then, write the code.</h4>
                                         <h5 className="text-danger">Budget: 100Million USD</h5>

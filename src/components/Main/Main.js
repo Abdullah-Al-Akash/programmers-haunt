@@ -23,7 +23,7 @@ const Main = () => {
         }
 
         return (
-                <div className="container mt-5">
+                <div className="container">
                         <div className="row">
                                 <div className="col-lg-9">
                                         <div className="row row-cols-1 row-cols-md-3 g-4">
