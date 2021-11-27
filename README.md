@@ -1,5 +1,5 @@
 # Programmer's-Haunt
-### Live: <a href="https://programmers-haunt.netlify.app/">Programmers haunt</a>
+### Live: <a href="https://programmers-haunt.netlify.app/" target="_blank">Programmers haunt</a>
 <h3>Hello!</h3>
 <p>This is a website where there are many WEB DEVELOPER's information anyone can see.</p>
 
